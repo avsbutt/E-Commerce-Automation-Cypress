@@ -14,4 +14,9 @@ npm install cypress-xpath --save-dev
 Modify the cypress/support/e2e.js ... require('cypress-xpath')
 
 
+Faker:  
+To generate random data like email, first name, last name, and telephone in Cypress, Faker is used.
+npm install @faker-js/faker --save-dev
+Used this in file where faker is required...     const { faker } = require('@faker-js/faker');
+
 
