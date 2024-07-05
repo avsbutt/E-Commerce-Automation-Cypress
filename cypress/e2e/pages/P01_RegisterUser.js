@@ -39,9 +39,8 @@ export class P01_RegisterUserClass {
         cy.xpath(RegisterUserLocators.Password).type(this.RegisteredUserData.password);
     }
     PasswordConfirm(){
-        cy.xpath(RegisterUserLocators.PasswordConfirm).type(this.RegisteredUserData.password); // Ensure confirm password matches
+        cy.xpath(RegisterUserLocators.PasswordConfirm).type(this.RegisteredUserData.password); // Ensure confirm password matches, Retype the same password
     }
-  
     NewsletterSubscribe(){
         cy.xpath(RegisterUserLocators.NewsletterSubscribe).click()
     }

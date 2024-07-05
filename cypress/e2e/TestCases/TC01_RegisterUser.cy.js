@@ -13,7 +13,8 @@ describe('Registered User', ()=>{
     P01_Test.Password()
     P01_Test.PasswordConfirm()
     P01_Test.PrivacyPolicy()
-    P01_Test.ContinueBtn
+    P01_Test.NewsletterSubscribe()
+    P01_Test.ContinueBtn()
     P01_Test.saveUserCredentials()
 
   })

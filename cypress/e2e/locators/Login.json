@@ -1,0 +1,10 @@
+{
+    "LoginLocators":
+    {
+        "MyAccount":"(//a[@role='button'])[12]",
+        "Login":"//span[normalize-space()='Login']",
+        "Email":"//input[@id='input-email']",
+        "Password":"//input[@id='input-password']",
+        "LoginBtn":"//input[@value='Login']"
+    }
+}
