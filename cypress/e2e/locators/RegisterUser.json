@@ -1,0 +1,18 @@
+{
+    "RegisterUserLocators":
+    {
+        "MyAccount":"(//a[@role='button'])[12]",
+        "Register":"//span[normalize-space()='Register']",
+        "FirstName":"//input[@id='input-firstname']",
+        "LastName":"//input[@id='input-lastname']",
+        "Email":"//input[@id='input-email']",
+        "Telephone":"//input[@id='input-telephone']",
+        "Password":"//input[@id='input-password']",
+        "PasswordConfirm":"//input[@id='input-confirm']",
+        "NewsletterSubscribe":"//label[normalize-space()='No']",
+        "PrivacyPolicy":"//label[@for='input-agree']",
+        "ContinueBtn":"//input[@value='Continue']",
+        "AccountCreated":"//h1[normalize-space()='Your Account Has Been Created!']",
+        "ContinueBtnAccountCreated":"//a[normalize-space()='Continue']"
+    }
+}
