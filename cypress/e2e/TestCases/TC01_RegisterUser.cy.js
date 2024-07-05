@@ -5,6 +5,16 @@ describe('Registered User', ()=>{
     it("TC01: Verify that User can be Registered Successfully", ()=>{
 
     cy.visit('common/home')
-    P01_Test.MyAccount()
-})
+    P01_Test.openMyAccountClickRegister()
+    P01_Test.FirstName()
+    P01_Test.LastName()
+    P01_Test.Email()
+    P01_Test.Telephone()
+    P01_Test.Password()
+    P01_Test.PasswordConfirm()
+    P01_Test.PrivacyPolicy()
+    P01_Test.ContinueBtn
+    P01_Test.saveUserCredentials()
+
+  })
 })
