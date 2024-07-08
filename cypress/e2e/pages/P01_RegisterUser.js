@@ -50,4 +50,7 @@ export class P01_RegisterUserClass {
     ContinueBtn(){
         cy.xpath(RegisterUserLocators.ContinueBtn).click()
     }
+    AccountCreatedUrlCheck(){
+      cy.url().should('include', 'account/success');
+    }
 }

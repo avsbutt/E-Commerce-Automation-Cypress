@@ -1,6 +1,6 @@
 Create Folder for Projext
-run this cmd to install package.json file ... npm init -y
-run this cmd to install CYPRESS ... npm install cypress 
+run this cmd to install package.json file... npm init -y
+run this cmd to install CYPRESS... npm install cypress 
 run this command to run the NPM cmd locally on system ... npx cypress -v
 run this command to verify CYPRESS dependecies... npx cypress verify
 Open Cypress Command ... npx Cypress open
@@ -11,7 +11,27 @@ Necessary Installation:
 
 Xpath: 
 npm install cypress-xpath --save-dev     
-Modify the cypress/support/e2e.js ... require('cypress-xpath')
+Modify the cypress/support/e2e.js:        require('cypress-xpath')
+
+
+
+iFrame:
+npm install -D cypress-iframe
+Add the following line to your cypress/support/commands.js file:      import 'cypress-iframe';
+Usage Example:
+cy.frameLoaded('#your-iframe-id');
+cy.iframe().find('selector-within-iframe').click();
+
+
+Mocha-Allure-Reporter:
+npm install allure-commandline --save-dev
+npm install mocha-allure-reporter --save-dev
+
+install this to clear previous report:      npm install rimraf --save-dev     
+
+
+
+
 
 
 Faker:  

@@ -16,6 +16,6 @@ describe('Registered User', ()=>{
     P01_Test.NewsletterSubscribe()
     P01_Test.ContinueBtn()
     P01_Test.saveUserCredentials()
-
+    P01_Test.AccountCreatedUrlCheck()
   })
 })

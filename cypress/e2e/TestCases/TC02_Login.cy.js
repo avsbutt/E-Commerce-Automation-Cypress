@@ -7,6 +7,7 @@ describe('Login User', ()=>{
     cy.visit('account/login')
     P02_Test.loginWithSavedCredentials()
     P02_Test.LoginBtnClick()
+    P02_Test.LoginUrlCheck()
   })
 })
 

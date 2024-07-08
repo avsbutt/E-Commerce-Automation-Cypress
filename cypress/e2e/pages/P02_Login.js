@@ -10,4 +10,7 @@ export class LoginClass {
     LoginBtnClick() {
         cy.xpath(LoginLocators.LoginBtn).click();
       }
+    LoginUrlCheck(){
+      cy.url().should('include', 'account/account')
+    }
 }
