@@ -5,6 +5,7 @@
         "Login":"//span[normalize-space()='Login']",
         "Email":"//input[@id='input-email']",
         "Password":"//input[@id='input-password']",
-        "LoginBtn":"//input[@value='Login']"
+        "LoginBtn":"//input[@value='Login']",
+        "Warning":"//div[@class='alert alert-danger alert-dismissible']"
     }
 }

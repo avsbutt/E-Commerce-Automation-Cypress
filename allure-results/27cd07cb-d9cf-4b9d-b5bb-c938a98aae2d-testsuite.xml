@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1720433753339' stop='1720433789862'>
+    <name>Navigation</name>
+    <title>Navigation</title>
+    <test-cases>
+        <test-case start='1720433753339' status='passed' stop='1720433777160'>
+            <name>cy.go() - go back or forward in the browser's history</name>
+            <title>cy.go() - go back or forward in the browser's history</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433777182' status='passed' stop='1720433784146'>
+            <name>cy.reload() - reload the page</name>
+            <title>cy.reload() - reload the page</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433784171' status='passed' stop='1720433789861'>
+            <name>cy.visit() - visit a remote url</name>
+            <title>cy.visit() - visit a remote url</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

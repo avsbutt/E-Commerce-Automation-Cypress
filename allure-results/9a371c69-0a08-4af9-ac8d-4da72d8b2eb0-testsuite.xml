@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1720433697369' stop='1720433698567'>
+    <name>Cypress APIs Cypress.arch</name>
+    <title>Cypress APIs Cypress.arch</title>
+    <test-cases>
+        <test-case start='1720433697377' status='passed' stop='1720433698548'>
+            <name>Get CPU architecture name of underlying OS</name>
+            <title>Get CPU architecture name of underlying OS</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

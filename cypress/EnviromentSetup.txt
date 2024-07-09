@@ -23,6 +23,7 @@ cy.frameLoaded('#your-iframe-id');
 cy.iframe().find('selector-within-iframe').click();
 
 
+
 Mocha-Allure-Reporter:
 npm install allure-commandline --save-dev
 npm install mocha-allure-reporter --save-dev

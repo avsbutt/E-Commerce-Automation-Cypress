@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1720433706401' stop='1720433707686'>
+    <name>Cypress APIs Cypress.version</name>
+    <title>Cypress APIs Cypress.version</title>
+    <test-cases>
+        <test-case start='1720433706414' status='passed' stop='1720433707655'>
+            <name>Get current version of Cypress being run</name>
+            <title>Get current version of Cypress being run</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

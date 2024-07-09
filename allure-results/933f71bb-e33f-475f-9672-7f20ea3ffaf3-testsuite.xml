@@ -1,0 +1,62 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1720434174450' stop='1720434275426'>
+    <name>Utilities</name>
+    <title>Utilities</title>
+    <test-cases>
+        <test-case start='1720434174450' status='passed' stop='1720434214787'>
+            <name>Cypress._ - call a lodash method</name>
+            <title>Cypress._ - call a lodash method</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720434214805' status='broken' stop='1720434275341'>
+            <name>Cypress.$ - call a jQuery method</name>
+            <title>Cypress.$ - call a jQuery method</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out after waiting `60000ms` for your remote page to load.
+                
+                Your page did not fire its `load` event within `60000ms`.
+                
+                You can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.
+                
+                Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+                
+                When this `load` event occurs, Cypress will continue running commands.
+                
+                Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Utilities`</message>
+                <stack-trace>CypressError: Timed out after waiting `60000ms` for your remote page to load.
+                
+                Your page did not fire its `load` event within `60000ms`.
+                
+                You can try increasing the `pageLoadTimeout` value in `cypress.config.js` to wait longer.
+                
+                Browsers will not fire the `load` event until all stylesheets and scripts are done downloading.
+                
+                When this `load` event occurs, Cypress will continue running commands.
+                
+                Because this error occurred during a `before each` hook we are skipping the remaining tests in the current suite: `Utilities`
+                    at timedOutWaitingForPageLoad (https://example.cypress.io/__cypress/runner/cypress_runner.js:130539:64)
+                    at &lt;unknown> (https://example.cypress.io/__cypress/runner/cypress_runner.js:131524:16)
+                    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:1807:23)
+                    at &lt;unknown> (https://example.cypress.io/__cypress/runner/cypress_runner.js:4186:41)
+                    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:1697:18)
+                    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:2407:12)
+                    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:2400:9)
+                    at Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:2416:5)
+                    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:2286:14)
+                From Your Spec Code:
+                    at Context.eval (webpack://e-commerce-automation-cypress/./cypress/e2e/examples/utilities.cy.js:5:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

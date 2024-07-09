@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1720434422979' stop='1720434498336'>
+    <name>Window</name>
+    <title>Window</title>
+    <test-cases>
+        <test-case start='1720434422979' status='passed' stop='1720434471411'>
+            <name>cy.window() - get the global window object</name>
+            <title>cy.window() - get the global window object</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720434471429' status='passed' stop='1720434488690'>
+            <name>cy.document() - get the document object</name>
+            <title>cy.document() - get the document object</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720434488724' status='passed' stop='1720434498336'>
+            <name>cy.title() - get the title</name>
+            <title>cy.title() - get the title</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

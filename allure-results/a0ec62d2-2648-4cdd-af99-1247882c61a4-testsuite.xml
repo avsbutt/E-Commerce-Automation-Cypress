@@ -1,0 +1,63 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1720433668414' stop='1720433684674'>
+    <name>Cookies</name>
+    <title>Cookies</title>
+    <test-cases>
+        <test-case start='1720433668414' status='passed' stop='1720433676983'>
+            <name>cy.getCookie() - get a browser cookie</name>
+            <title>cy.getCookie() - get a browser cookie</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433677012' status='passed' stop='1720433678539'>
+            <name>cy.getCookies() - get browser cookies for the current domain</name>
+            <title>cy.getCookies() - get browser cookies for the current domain</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433678568' status='passed' stop='1720433679942'>
+            <name>cy.getAllCookies() - get all browser cookies</name>
+            <title>cy.getAllCookies() - get all browser cookies</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433679962' status='passed' stop='1720433680941'>
+            <name>cy.setCookie() - set a browser cookie</name>
+            <title>cy.setCookie() - set a browser cookie</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433680953' status='passed' stop='1720433681977'>
+            <name>cy.clearCookie() - clear a browser cookie</name>
+            <title>cy.clearCookie() - clear a browser cookie</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433681994' status='passed' stop='1720433683289'>
+            <name>cy.clearCookies() - clear browser cookies for the current domain</name>
+            <title>cy.clearCookies() - clear browser cookies for the current domain</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1720433683311' status='passed' stop='1720433684673'>
+            <name>cy.clearAllCookies() - clear all browser cookies</name>
+            <title>cy.clearAllCookies() - clear all browser cookies</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
