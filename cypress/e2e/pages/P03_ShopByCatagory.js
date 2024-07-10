@@ -10,17 +10,18 @@ export class P03_ShopByCatagory {
     }
     //APPLY FILTERS FOR ITEMS
     FilterApply(){
-       cy.wait(300)
-       cy.xpath(ShopByCatagoryLocators.FilterPriceSlider)
-       .invoke('val', 10.6204)
-       .trigger('change')
-       cy.xpath(ShopByCatagoryLocators.FilterPriceSlider)
-       .siblings('style')
-       .should('have.text', '10.6204')
-       
-       //.should('have.text', '25')
-        
+    
+       cy.xpath(ShopByCatagoryLocators.FilterMaximumPriceInputField).clear().type('300')
+       cy.xpath(ShopByCatagoryLocators.ManufacturerApple).click()
+       cy.xpath(ShopByCatagoryLocators.AvailibilityInSrock).click()
+       cy.xpath(ShopByCatagoryLocators.iPodShuffle).trigger('mouseover')
+       cy.xpath(ShopByCatagoryLocators.AddToCartBtn).click()
     }
+    iPodShuffleAddToCart(){
+        cy.xpath(ShopByCatagoryLocators.iPodShuffle).trigger('mouseover')
+        cy.xpath(ShopByCatagoryLocators.AddToCartBtn).click()
+    }
+
 
 
 }

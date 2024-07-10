@@ -24,5 +24,8 @@
     "cypress-xpath": "^2.0.1",
     "mocha-allure-reporter": "^1.4.0",
     "rimraf": "^5.0.8"
+  },
+  "dependencies": {
+    "cypress-real-events": "^1.12.0"
   }
 }

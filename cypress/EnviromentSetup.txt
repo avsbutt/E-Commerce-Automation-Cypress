@@ -31,6 +31,9 @@ npm install mocha-allure-reporter --save-dev
 install this to clear previous report:      npm install rimraf --save-dev     
 
 
+Real-Events
+If Hover is not working with trigger real-events is used.
+npm install cypress-real-events
 
 
 
