@@ -8,6 +8,6 @@ describe('test', ()=>{
        
 cy.visit('https://ecommerce-playground.lambdatest.io/index.php?route=product/category&path=57&mz_fp=p300&mz_fm=8&mz_fss=-1')
 cy.xpath("//a[@id='mz-product-grid-image-34-212408']//div[@class='carousel-item active']//img[@title='iPod Shuffle']").realHover()
-cy.xpath("//button[@class='btn btn-cart cart-29']").click()
+cy.xpath("//button[@class='btn btn-cart cart-34']").should('be.visible').click({ force: true });
     })
 })

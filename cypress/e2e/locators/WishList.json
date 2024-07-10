@@ -1,0 +1,29 @@
+{ "WishListLocators":
+    {
+        "MegaMenu":"//li[@class='nav-item dropdown dropdown-hoverable mega-menu position-static']//a[@role='button']",
+        "Samsung":"//a[normalize-space()='Samsung']",
+        "AvailibilityInStock":"//label[@for='mz-fss-0--1']",
+
+
+        "iMac":"//a[@id='mz-product-grid-image-41-212439']//div[@class='carousel-item active']//img[@title='iMac']",
+        "iMacWishListBtn":"//button[contains(@class,'btn btn-wishlist wishlist-41')]",
+
+        "iPodShuffle":"//a[@id='mz-product-grid-image-34-212439']//div[@class='carousel-item active']//img[@title='iPod Shuffle']",
+        "iPodShuffleWishListBtn":"//button[@class='btn btn-wishlist wishlist-34 ']",
+        
+        "iPodNano":"//a[@id='mz-product-grid-image-36-212439']//div[@class='carousel-item active']//img[@title='iPod Nano']",
+        "iPodNanoWishListBtn":"//button[contains(@class,'btn btn-wishlist wishlist-36')]",
+
+
+        "ItemAddedNotification":"//p[contains(text(),'Success: You have added')]",
+        "ItemAddedNotificationCloseBtn":"//span[@aria-hidden='true']",
+
+        "WishListHeaderIcon":"//span[@title='Wishlist']//*[name()='svg']",
+        "RemoveItem1FromWishList":"//tbody/tr[1]/td[6]/a[1]",
+        "AddToCartItemFromWishList":"//button[@title='Add to Cart']",
+        
+        "SuccessMessage":"//div[@class='alert alert-success alert-dismissible']",
+        "SuccessMessageCloseBtn":"//button[normalize-space()='×']"
+
+    }
+}

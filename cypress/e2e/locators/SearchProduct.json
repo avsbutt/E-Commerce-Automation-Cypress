@@ -1,0 +1,9 @@
+{ "SearchProductLocators":
+    {
+        "AllCatagories":"//div[@id='entry_217822']//button[@type='button'][normalize-space()='All Categories']",
+        "Tablets":"//div[@class='dropdown-menu dropdown-menu-left show']//a[@class='dropdown-item'][normalize-space()='Tablets']",
+        "SearchField":"//div[@id='entry_217822']//input[@placeholder='Search For Products']",
+        "SearchBtn":"//button[normalize-space()='Search']",
+        "SearchResult":"//ul[contains(@class, 'dropdown-menu') and contains(@class, 'autocomplete') and contains(@class, 'w-100')]//li[contains(@class, 'product-thumb')]"
+    }
+}

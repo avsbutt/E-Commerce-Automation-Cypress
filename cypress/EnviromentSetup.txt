@@ -34,6 +34,7 @@ install this to clear previous report:      npm install rimraf --save-dev
 Real-Events
 If Hover is not working with trigger real-events is used.
 npm install cypress-real-events
+Add the following line to your cypress/support/commands.js file:        import 'cypress-real-events';
 
 
 
