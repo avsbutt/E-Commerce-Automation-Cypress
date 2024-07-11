@@ -19,7 +19,7 @@ export class P01_RegisterUserClass {
       }
   
     openMyAccountClickRegister() {
-      cy.xpath(RegisterUserL11ocators.MyAccount).trigger('mouseover');
+      cy.xpath(RegisterUserLocators.MyAccount).trigger('mouseover');
       cy.xpath(RegisterUserLocators.Register).click();
     }
   
