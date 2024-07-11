@@ -14,14 +14,23 @@ describe('Product Compare', ()=>{
     })
     it("TestCase_010: Verify that User can Remove item from ProductCompare List", ()=>{
         LoginUtils();
+        P06_Test.ClickOnMenuAndSelectNokia()
+        P06_Test.ClickOnInStock()
+        P06_Test.CanonEos5DAddToProductCompare()
+        P06_Test.SamsungSyncMasterAddToProductCompare()
         P06_Test.ClickOnProductCompareIcon()
         P06_Test.RemoveItemFromProductCompare() 
     })
-    it("TestCase_011: Verify that User can Add item To ProductCompare", ()=>{
+    it("TestCase_011: Verify that User can Add item To Cart From ProductCompare", ()=>{
 
         LoginUtils();
+        P06_Test.ClickOnMenuAndSelectNokia()
+        P06_Test.ClickOnInStock()
+        P06_Test.CanonEos5DAddToProductCompare()
+        P06_Test.SamsungSyncMasterAddToProductCompare()
         P06_Test.ClickOnProductCompareIcon()
-        P06_Test.AddToCartItemFromProductCompare()  
+        P06_Test.AddToCartItemFromProductCompare() 
+         
     })
 
 
