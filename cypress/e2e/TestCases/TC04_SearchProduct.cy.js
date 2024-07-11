@@ -2,7 +2,7 @@ import { P04_SearchProductClass } from "../pages/P04_SearchProduct";
 
 const P04_Test = new P04_SearchProductClass
 
-describe('User can shop from catagory', ()=>{
+describe('Search Product', ()=>{
     it("TestCase_005: Verify that Search Field is working", ()=>{
         //LoginUtils();
         cy.visit('common/home')

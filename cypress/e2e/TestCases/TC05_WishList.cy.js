@@ -3,7 +3,7 @@ import { LoginUtils } from "../utils/LoginUtils";
 
 const P05_Test = new P05_WishListClass
 
-describe('User can shop from catagory', ()=>{
+describe('WishList', ()=>{
     it("TestCase_006: Verify that User can Add Product To WishList", ()=>{
 
         LoginUtils();

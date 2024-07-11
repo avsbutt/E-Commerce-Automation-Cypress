@@ -1,0 +1,25 @@
+{ "ProductCompareLocators":
+    {
+        "MegaMenu":"//li[@class='nav-item dropdown dropdown-hoverable mega-menu position-static']//a[@role='button']",
+        "Nokia":"//a[normalize-space()='Nokia']",
+        "AvailibilityInStock":"//label[@for='mz-fss-0--1']",
+        "ProductCompareHeaderIcon":"//span[@title='Compare']//*[name()='svg']",
+        
+        "CanonEOS5D":"//a[@id='mz-product-grid-image-30-212439']//div[@class='carousel-item active']//img[@title='Canon EOS 5D']",
+        "CanonEOS5DProductCompareBtn":"//button[contains(@class,'btn btn-compare compare-30')]",
+
+        "SamsungSyncMaster":"//div[@class='carousel-item active']//img[@title='Samsung SyncMaster 941BW']",
+        "SamsungSyncMasterProductCompareBtn":"//button[contains(@class,'btn btn-compare compare-66')]",
+
+
+        "ItemAddedNotification":"//p[contains(text(),'Success: You have added')]",
+        "ItemAddedNotificationCloseBtn":"//span[@aria-hidden='true']",
+
+        "RemoveBtn":"//a[@class='btn btn-danger btn-block']",
+        "AddToCart":"//input[@class='btn btn-primary btn-block']",
+
+        "SuccessMessage":"//div[@class='alert alert-success alert-dismissible']",
+        "SuccessMessageCloseBtn":"//button[normalize-space()='×']"
+
+    }
+}

@@ -3,7 +3,7 @@ import { P02_LoginClass } from "../pages/P02_Login";
 import { LoginUtils } from "../utils/LoginUtils";
 const P02_Test = new P02_LoginClass();
 
-describe('Login User', ()=>{
+describe('Login', ()=>{
     it("TestCase_002: Verify that User can Login Successfully", ()=>{
 
       LoginUtils();
