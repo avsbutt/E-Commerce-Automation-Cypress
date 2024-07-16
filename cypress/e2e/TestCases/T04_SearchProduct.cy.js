@@ -9,6 +9,6 @@ describe('Search Product', ()=>{
         P04_Test.ClickAndSelectCatagories()
         P04_Test.TypeInSearchField()
         P04_Test.CountSearchResult()
-        cy.screenshot('TC04: Verify that Search Field is working')
+        cy.screenshot('TC005  Verify that Search Field is working')
     })
 })

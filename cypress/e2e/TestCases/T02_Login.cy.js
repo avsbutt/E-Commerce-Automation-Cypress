@@ -7,7 +7,7 @@ describe('Login', ()=>{
     it("TestCase_002: Verify that User can Login Successfully", ()=>{
 
       LoginUtils();
-      cy.screenshot('Verify that User can Login Successfully')
+      cy.screenshot('TC002 Verify that User can Login Successfully')
   })
 
   it("TestCase_003: Verify that User cannot Login with invalid Credentials", ()=>{
@@ -20,7 +20,7 @@ describe('Login', ()=>{
        P02_Test.LoginBtnClick()
        P02_Test.WarningOnWrongEmailPassword()
        P02_Test.InvalidLoginUrlCheck()
-       cy.screenshot('Verify that User cannot Login with invalid Credentials')
+       cy.screenshot('TC003 Verify that User cannot Login with invalid Credentials')
 
       })
 

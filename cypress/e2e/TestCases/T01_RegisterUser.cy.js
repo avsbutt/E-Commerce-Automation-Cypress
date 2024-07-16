@@ -17,6 +17,6 @@ describe('Registered New User', ()=>{
     P01_Test.ContinueBtn()
     P01_Test.saveUserCredentials()
     P01_Test.AccountCreatedUrlCheck()
-    cy.screenshot('TC01: Verify that User can be Registered Successfully')
+    cy.screenshot('TC001 Verify that User can be Registered Successfully')
   })
 })

@@ -1,0 +1,17 @@
+{ "CheckoutLocators":
+
+    {
+        "CheckoutHeaderIcon":"//div[@id='entry_217825']//div[@class='icon svg-icon']//*[name()='svg']",
+        "CheckoutSidebarBtn":"//a[normalize-space()='Checkout']",
+        "EmptyShoppingCartText":"Your shopping cart is empty!",
+        "":"",
+        "":"",
+        "":"",
+        "":"",
+        "":"",
+        "":"",
+        "":"",
+        "":""
+
+    }
+}

@@ -22,14 +22,14 @@ describe('WishList', ()=>{
         P05_Test.ClickOnWishListIcon()
         P05_Test.RemoveWishListItem()
         P05_Test.RemoveWishListItem()
-        cy.screenshot('007 Items in WishList After Deleting')
+        cy.screenshot('TC007 Items in WishList After Deleting')
 
     })
     it("TestCase_008: Verify that User can Add Product To Cart From WishList", ()=>{
         LoginUtils();
         P05_Test.ClickOnWishListIcon()
         P05_Test.AddToCartFromWishListItem()
-        cy.screenshot('008 Item is added to Cart from WishList')
+        cy.screenshot('TC008 Item is added to Cart from WishList')
     })
 
 
