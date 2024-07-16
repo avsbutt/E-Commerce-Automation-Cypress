@@ -11,7 +11,10 @@ describe('Product Compare', ()=>{
         P07_Test.ClickOnCheckoutHeaderIconandBtn()
         P07_Test.ClickOnCheckoutBtn()
         //P07_Test.VerifyShoppingCartEmptyOrNot()
-        P07_Test.FilledShippingInfo()
+        P07_Test.FillShippingInfo()
+        P07_Test.ClickOnContinueBtn()
+        P07_Test.ConfirmOrder()
+        P07_Test.CheckoutSuccess()
   
     })
 })

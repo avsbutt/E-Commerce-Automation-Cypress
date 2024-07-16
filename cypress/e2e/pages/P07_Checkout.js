@@ -18,7 +18,7 @@ export class P07_CheckoutClass {
         cy.xpath(CheckoutLocators.CheckoutSidebarBtn).click()
         //cy.xpath(CheckoutLocators.CheckoutCartBtn).click()
     }
-    FilledShippingInfo(){
+    FillShippingInfo(){
 
         cy.fixture('RegisteredUserData').then((data) => {
 
