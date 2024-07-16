@@ -1,0 +1,59 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721132817943' stop='1721132839505'>
+    <name>Shop By Catagory</name>
+    <title>Shop By Catagory</title>
+    <test-cases>
+        <test-case start='1721132817943' status='broken' stop='1721132839457'>
+            <name>TestCase_004: Verify that User can add items to cart from Shop By catagory</name>
+            <title>TestCase_004: Verify that User can add items to cart from Shop By catagory</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 4050ms: `cy.click()` failed because this element:
+                
+                `&lt;button class="btn btn-cart cart-54" title="Add to Cart" onclick="cart.add('54');">...&lt;/button>`
+                
+                is being covered by another element:
+                
+                `&lt;a class="icon-left both nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="https://ecommerce-playground.lambdatest.io/index.php?route=account/account">...&lt;/a>`
+                
+                Fix this problem, or use {force: true} to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 4050ms: `cy.click()` failed because this element:
+                
+                `&lt;button class="btn btn-cart cart-54" title="Add to Cart" onclick="cart.add('54');">...&lt;/button>`
+                
+                is being covered by another element:
+                
+                `&lt;a class="icon-left both nav-link dropdown-toggle" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="https://ecommerce-playground.lambdatest.io/index.php?route=account/account">...&lt;/a>`
+                
+                Fix this problem, or use {force: true} to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at ensureIsDescendent (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:112445:68)
+                    at ensureDescendents (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:112496:5)
+                    at ensureDescendentsAndScroll (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:112502:14)
+                    at ensureElIsNotCovered (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:112633:5)
+                    at runAllChecks (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:112832:52)
+                    at retryActionability (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:112869:16)
+                    at tryCatcher (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise.attempt.Promise.try (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:4315:29)
+                    at whenStable (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:143646:68)
+                    at &lt;unknown> (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:143587:14)
+                    at tryCatcher (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:1807:23)
+                    at Promise._settlePromiseFromHandler (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:1519:31)
+                    at Promise._settlePromise (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:1576:18)
+                    at Promise._settlePromise0 (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:1621:10)
+                    at Promise._settlePromises (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:1701:18)
+                    at Promise._fulfill (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:1645:18)
+                    at &lt;unknown> (https://ecommerce-playground.lambdatest.io/__cypress/runner/cypress_runner.js:5450:46)
+                From Your Spec Code:
+                    at P03_ShopByCatagoryClass.iMacAddToCart (webpack://e-commerce-automation-cypress/./cypress/e2e/pages/P03_ShopByCatagory.js:41:74)
+                    at Context.eval (webpack://e-commerce-automation-cypress/./cypress/e2e/TestCases/T03_ShopByCatagory.cy.js:15:17)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

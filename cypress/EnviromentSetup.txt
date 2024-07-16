@@ -28,7 +28,11 @@ Mocha-Allure-Reporter:
 npm install allure-commandline --save-dev
 npm install mocha-allure-reporter --save-dev
 
-install this to clear previous report:      npm install rimraf --save-dev     
+
+install this to clear previous Data (Allure result,report):      npm install rimraf --save-dev  
+rm -rf allure-results allure-report
+
+
 
 
 Real-Events
