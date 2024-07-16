@@ -26,14 +26,13 @@ export class ProductCpmpareClass{
         cy.xpath(ProductCompareLocators.ItemAddedNotificationCloseBtn).click({force: true})
     }
     ClickOnProductCompareIcon(){
-        cy.xpath(ProductCompareLocators.ProductCompareHeaderIcon).click({})
+        cy.xpath(ProductCompareLocators.ProductCompareHeaderIcon).click()
         cy.url().should('include', 'product/compare')
     }
     RemoveItemFromProductCompare(){
-        cy.xpath(ProductCompareLocators.RemoveBtn).click({ force: true }, {multiple: true})
+        cy.xpath(ProductCompareLocators.RemoveBtn).eq(0).click()           //THERE ARE MULTIPLE BUTTON WITH SAME LOCATOR TO HANDLE THIS WE USE eq(0)/eq(1) THIS WILL CLICK ONLY ONE LOCATOR 
     }
     AddToCartItemFromProductCompare(){
-        cy.xpath(ProductCompareLocators.AddToCart).click({multiple: true})
+        cy.xpath(ProductCompareLocators.AddToCart).eq(0).click()                 //THERE ARE MULTIPLE BUTTON WITH SAME LOCATOR TO HANDLE THIS WE USE eq(0)/eq(1) THIS WILL CLICK ONLY ONE LOCATOR
     }
-
 }

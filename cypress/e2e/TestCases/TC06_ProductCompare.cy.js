@@ -19,7 +19,8 @@ describe('Product Compare', ()=>{
         P06_Test.CanonEos5DAddToProductCompare()
         P06_Test.SamsungSyncMasterAddToProductCompare()
         P06_Test.ClickOnProductCompareIcon()
-        P06_Test.RemoveItemFromProductCompare() 
+        P06_Test.RemoveItemFromProductCompare() //THERE ARE MULTIPLE BUTTON WITH SAME LOCATOR TO HANDLE THIS WE USE eq(0)/eq(1) THIS WILL CLICK ONLY ONE LOCATOR
+        P06_Test.RemoveItemFromProductCompare()
     })
     it("TestCase_011: Verify that User can Add item To Cart From ProductCompare", ()=>{
 

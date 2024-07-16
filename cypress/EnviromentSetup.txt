@@ -1,6 +1,6 @@
 Create Folder for Projext
 run this cmd to install package.json file... npm init -y
-run this cmd to install CYPRESS... npm install cypress 
+run this cmd to install CYPRESS... npm install cypress --save-dev
 run this command to run the NPM cmd locally on system ... npx cypress -v
 run this command to verify CYPRESS dependecies... npx cypress verify
 Open Cypress Command ... npx Cypress open
