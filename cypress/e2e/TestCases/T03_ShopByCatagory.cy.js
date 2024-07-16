@@ -13,8 +13,8 @@ describe('Shop By Catagory', ()=>{
         P03_Test.iPodShuffleAddToCart()
         P03_Test.iPodNanoAddToCart()
         P03_Test.iMacAddToCart()
-        P03_Test.AppleCinemaAddToCart()
-        // P03_Test.iPodClassicAddToCart()
+       //P03_Test.AppleCinemaAddToCart()
+        P03_Test.iPodClassicAddToCart()
 
     })
 })

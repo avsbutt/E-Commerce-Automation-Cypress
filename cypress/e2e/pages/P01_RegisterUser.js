@@ -3,14 +3,20 @@ const { faker } = require('@faker-js/faker');  //USED FAKER FOR RANDOM FirstName
 
 
 export class P01_RegisterUserClass {
-    constructor() {
-      this.RegisteredUserData = {
-        firstName: faker.name.firstName(),
-        lastName: faker.name.lastName(),
-        email: faker.internet.email(),
-        telephone: faker.phone.number('##########'), // Generates a 10-digit number
-        password: faker.internet.password() // Generates a random password
-      };
+
+
+
+  constructor() {                       //   THIS CONSTRUCTOR GENERATE RANDOM DATA THROUGH FAKER
+    this.RegisteredUserData = {
+      firstName: faker.name.firstName(),
+      lastName: faker.name.lastName(),
+      email: faker.internet.email(),
+      address: faker.address.streetAddress(), // Generate random address
+      city: faker.address.city(), // Generate random city
+      postcode: faker.address.zipCode(), // Generate random postcode
+      telephone: faker.phone.number('##########'), // Generates a 10-digit number
+      password: faker.internet.password() // Generates a random password
+    };
     }
 
 

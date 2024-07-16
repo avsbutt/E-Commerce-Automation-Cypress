@@ -3,14 +3,27 @@
     {
         "CheckoutHeaderIcon":"//div[@id='entry_217825']//div[@class='icon svg-icon']//*[name()='svg']",
         "CheckoutSidebarBtn":"//a[normalize-space()='Checkout']",
-        "EmptyShoppingCartText":"Your shopping cart is empty!",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
-        "":"",
+        "EmptyShoppingCartText":"//p[@class='m-0 py-5 text-center']",
+        "CheckoutCartBtn":"//a[@class='btn btn-lg btn-primary']",
+
+
+        "FirstName":"//input[@id='input-payment-firstname']",
+        "LastName":"//input[@id='input-payment-lastname']",
+       
+        "Telephone":"//input[@id='input-payment-telephone']",
+        
+        "Address1":"//input[@id='input-payment-address-1']",
+        "City":"//input[@id='input-payment-city']",
+        "PostCode":"//input[@id='input-payment-postcode']",
+        "Country":"//select[@id='input-payment-country']",
+        "RegionState":"//select[@id='input-payment-zone']",
+       
+        "TermsAndCondition":"//label[@for='input-agree']",
+        "ContinueBtn":"//button[@id='button-save']",
+        "ConfirmOrderBtn":"//button[@id='button-confirm']",
+        "OrderPlacedText":"//h1[@class='page-title my-3']",
+
+
         "":""
 
     }

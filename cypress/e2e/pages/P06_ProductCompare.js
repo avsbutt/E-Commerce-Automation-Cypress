@@ -1,6 +1,6 @@
 import { ProductCompareLocators } from "../locators/ProductCompare.json"
 
-export class ProductCpmpareClass{
+export class P06_ProductCpmpareClass{
     ClickOnMenuAndSelectNokia(){
         cy.xpath(ProductCompareLocators.MegaMenu).realHover()
         cy.xpath(ProductCompareLocators.Nokia).click()

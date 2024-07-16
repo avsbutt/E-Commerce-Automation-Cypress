@@ -1,5 +1,5 @@
-import { ProductCpmpareClass } from "../pages/P06_ProductCompare"
-const P06_Test = new ProductCpmpareClass
+import { P06_ProductCpmpareClass } from "../pages/P06_ProductCompare"
+const P06_Test = new P06_ProductCpmpareClass
 import { LoginUtils } from "../utils/LoginUtils";
 
 

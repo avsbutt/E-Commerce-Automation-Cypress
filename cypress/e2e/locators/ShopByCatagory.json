@@ -20,8 +20,8 @@
         "iPodNano":"//a[@id='mz-product-grid-image-36-212408']//div[@class='carousel-item active']//img[@title='iPod Nano']",
         "iPodNanoCartBtn":"//button[@class='btn btn-cart cart-36']",
 
-        "iMac":"//a[@id='mz-product-grid-image-41-212408']//div[@class='carousel-item active']//img[@title='iMac']",
-        "iMacCartBtn":"//button[@class='btn btn-cart cart-41']",
+        "iMac":"//a[@id='mz-product-grid-image-54-212408']//div[@class='carousel-item active']//img[@title='iMac']",
+        "iMacCartBtn":"//button[@class='btn btn-cart cart-54']",
 
         "AppleCinema":"//a[@id='mz-product-grid-image-42-212408']//div[@class='carousel-item active']//img[@title='Apple Cinema 30&quot;']",
         "AppleCinemaAirCartBtn":"//button[@class='btn btn-cart cart-42']",
