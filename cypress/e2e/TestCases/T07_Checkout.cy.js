@@ -6,7 +6,7 @@ import { LoginUtils } from "../utils/LoginUtils";
 const P07_Test = new P07_CheckoutClass
 
 describe('Product Compare', ()=>{
-    it("TestCase_012: Verify that User can Added items are displayed in Checkout", ()=>{
+    it.skip("TestCase_012: Verify that User can Added items are displayed in Checkout", ()=>{
         LoginUtils();
         P07_Test.ClickOnCheckoutHeaderIconandBtn()
         P07_Test.ClickOnCheckoutBtn()

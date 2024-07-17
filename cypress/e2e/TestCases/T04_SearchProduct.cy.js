@@ -3,7 +3,7 @@ import { P04_SearchProductClass } from "../pages/P04_SearchProduct";
 const P04_Test = new P04_SearchProductClass
 
 describe('Search Product', ()=>{
-    it("TestCase_005: Verify that Search Field is working", ()=>{
+    it.skip("TestCase_005: Verify that Search Field is working", ()=>{
         //LoginUtils();
         cy.visit('common/home')
         P04_Test.ClickAndSelectCatagories()

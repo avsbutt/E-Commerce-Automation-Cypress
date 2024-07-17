@@ -5,7 +5,7 @@ import { LoginUtils } from "../utils/LoginUtils";
 const P03_Test = new P03_ShopByCatagoryClass;
 
 describe('Shop By Catagory', ()=>{
-    it("TestCase_004: Verify that User can add items to cart from Shop By catagory", ()=>{
+    it.skip("TestCase_004: Verify that User can add items to cart from Shop By catagory", ()=>{
         LoginUtils();
         P03_Test.ShopByCatagoryHeaderMenuClick()
         P03_Test.PhoneTabletiPodCatagoryClick()

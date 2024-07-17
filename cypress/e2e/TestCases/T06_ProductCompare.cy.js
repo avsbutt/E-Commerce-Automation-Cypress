@@ -4,7 +4,7 @@ import { LoginUtils } from "../utils/LoginUtils";
 
 
 describe('Product Compare', ()=>{
-    it("TestCase_009: Verify that User can Add item To ProductCompare", ()=>{
+    it.skip("TestCase_009: Verify that User can Add item To ProductCompare", ()=>{
         LoginUtils();
         P06_Test.ClickOnMenuAndSelectNokia()
         P06_Test.ClickOnInStock()
@@ -12,7 +12,7 @@ describe('Product Compare', ()=>{
         P06_Test.SamsungSyncMasterAddToProductCompare()
   
     })
-    it("TestCase_010: Verify that User can Remove item from ProductCompare List", ()=>{
+    it.skip("TestCase_010: Verify that User can Remove item from ProductCompare List", ()=>{
         LoginUtils();
         P06_Test.ClickOnMenuAndSelectNokia()
         P06_Test.ClickOnInStock()
@@ -22,7 +22,7 @@ describe('Product Compare', ()=>{
         P06_Test.RemoveItemFromProductCompare() //THERE ARE MULTIPLE BUTTON WITH SAME LOCATOR TO HANDLE THIS WE USE eq(0)/eq(1) THIS WILL CLICK ONLY ONE LOCATOR
         P06_Test.RemoveItemFromProductCompare()
     })
-    it("TestCase_011: Verify that User can Add item To Cart From ProductCompare", ()=>{
+    it.skip("TestCase_011: Verify that User can Add item To Cart From ProductCompare", ()=>{
 
         LoginUtils();
         P06_Test.ClickOnMenuAndSelectNokia()

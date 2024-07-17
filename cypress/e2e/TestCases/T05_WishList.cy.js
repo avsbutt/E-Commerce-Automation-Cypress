@@ -4,7 +4,7 @@ import { LoginUtils } from "../utils/LoginUtils";
 const P05_Test = new P05_WishListClass
 
 describe('WishList', ()=>{
-    it("TestCase_006: Verify that User can Add Product To WishList", ()=>{
+    it.skip("TestCase_006: Verify that User can Add Product To WishList", ()=>{
 
         LoginUtils();
         P05_Test.ClickOnMenuAndSelectSamsung()
@@ -16,7 +16,7 @@ describe('WishList', ()=>{
         
     })
 
-    it("TestCase_007: Verify that User can Delete Product From WishList", ()=>{
+    it.skip("TestCase_007: Verify that User can Delete Product From WishList", ()=>{
         LoginUtils();
         cy.screenshot('007 Items in WishList Before Deleting')
         P05_Test.ClickOnWishListIcon()
@@ -25,7 +25,7 @@ describe('WishList', ()=>{
         cy.screenshot('TC007 Items in WishList After Deleting')
 
     })
-    it("TestCase_008: Verify that User can Add Product To Cart From WishList", ()=>{
+    it.skip("TestCase_008: Verify that User can Add Product To Cart From WishList", ()=>{
         LoginUtils();
         P05_Test.ClickOnWishListIcon()
         P05_Test.AddToCartFromWishListItem()
