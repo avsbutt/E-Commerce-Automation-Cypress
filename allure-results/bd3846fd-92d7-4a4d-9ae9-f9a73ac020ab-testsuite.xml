@@ -1,0 +1,31 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721202845848' stop='1721202856259'>
+    <name>Misc</name>
+    <title>Misc</title>
+    <test-cases>
+        <test-case start='1721202845848' status='passed' stop='1721202849872'>
+            <name>cy.exec() - execute a system command</name>
+            <title>cy.exec() - execute a system command</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1721202849894' status='passed' stop='1721202850602'>
+            <name>cy.focused() - get the DOM element that has focus</name>
+            <title>cy.focused() - get the DOM element that has focus</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1721202850623' status='passed' stop='1721202850914'>
+            <name>cy.wrap() - wrap an object</name>
+            <title>cy.wrap() - wrap an object</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

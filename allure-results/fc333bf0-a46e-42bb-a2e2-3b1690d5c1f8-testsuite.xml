@@ -1,0 +1,15 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721202820457' stop='1721202820814'>
+    <name>Cypress APIs Cypress.Cookies</name>
+    <title>Cypress APIs Cypress.Cookies</title>
+    <test-cases>
+        <test-case start='1721202820483' status='passed' stop='1721202820793'>
+            <name>.debug() - enable or disable debugging</name>
+            <title>.debug() - enable or disable debugging</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

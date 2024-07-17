@@ -6,6 +6,9 @@ module.exports = defineConfig({
     baseUrl: "https://ecommerce-playground.lambdatest.io/index.php?route=",
     setupNodeEvents(on, config) {
       // implement node event listeners here
+
+      // testomat.io reporter plugin:
+      require('@testomatio/reporter/lib/adapter/cypress-plugin')(on, config);
     },
 
 

@@ -49,3 +49,5 @@ npm install @faker-js/faker --save-dev
 Used this in file where faker is required...     const { faker } = require('@faker-js/faker');
 
 
+Testomat.io
+npm i --save-dev @testomatio/reporter
