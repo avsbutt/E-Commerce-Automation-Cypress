@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721202518663' stop='1721202540039'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721203866383' stop='1721203889622'>
     <name>Shop By Catagory</name>
     <title>Shop By Catagory</title>
     <test-cases>
-        <test-case start='1721202518663' status='passed' stop='1721202540039'>
+        <test-case start='1721203866383' status='passed' stop='1721203889622'>
             <name>TestCase_004: Verify that User can add items to cart from Shop By catagory</name>
             <title>TestCase_004: Verify that User can add items to cart from Shop By catagory</title>
             <labels/>

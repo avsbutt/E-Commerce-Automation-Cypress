@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721202562567' stop='1721202629090'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721203915428' stop='1721203972327'>
     <name>WishList</name>
     <title>WishList</title>
     <test-cases>
-        <test-case start='1721202562567' status='failed' stop='1721202588477'>
+        <test-case start='1721203915428' status='failed' stop='1721203941207'>
             <name>TestCase_006: Verify that User can Add Product To WishList</name>
             <title>TestCase_006: Verify that User can Add Product To WishList</title>
             <labels/>
@@ -17,7 +17,7 @@
                     at Context.eval (webpack://e-commerce-automation-cypress/./cypress/e2e/TestCases/T05_WishList.cy.js:15:17)</stack-trace>
             </failure>
         </test-case>
-        <test-case start='1721202588550' status='passed' stop='1721202611690'>
+        <test-case start='1721203941329' status='passed' stop='1721203960824'>
             <name>TestCase_007: Verify that User can Delete Product From WishList</name>
             <title>TestCase_007: Verify that User can Delete Product From WishList</title>
             <labels/>
@@ -25,7 +25,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1721202611713' status='failed' stop='1721202629081'>
+        <test-case start='1721203960856' status='failed' stop='1721203972326'>
             <name>TestCase_008: Verify that User can Add Product To Cart From WishList</name>
             <title>TestCase_008: Verify that User can Add Product To Cart From WishList</title>
             <labels/>

@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721132794573' stop='1721132813458'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721203843740' stop='1721203862952'>
     <name>Login</name>
     <title>Login</title>
     <test-cases>
-        <test-case start='1721132794573' status='passed' stop='1721132804861'>
+        <test-case start='1721203843740' status='passed' stop='1721203855115'>
             <name>TestCase_002: Verify that User can Login Successfully</name>
             <title>TestCase_002: Verify that User can Login Successfully</title>
             <labels/>
@@ -11,7 +11,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1721132804892' status='passed' stop='1721132813458'>
+        <test-case start='1721203855144' status='passed' stop='1721203862952'>
             <name>TestCase_003: Verify that User cannot Login with invalid Credentials</name>
             <title>TestCase_003: Verify that User cannot Login with invalid Credentials</title>
             <labels/>

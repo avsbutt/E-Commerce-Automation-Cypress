@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721202632876' stop='1721202688317'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721203977672' stop='1721204067741'>
     <name>Product Compare</name>
     <title>Product Compare</title>
     <test-cases>
-        <test-case start='1721202632876' status='passed' stop='1721202649908'>
+        <test-case start='1721203977672' status='passed' stop='1721203993037'>
             <name>TestCase_009: Verify that User can Add item To ProductCompare</name>
             <title>TestCase_009: Verify that User can Add item To ProductCompare</title>
             <labels/>
@@ -11,7 +11,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1721202649952' status='passed' stop='1721202670765'>
+        <test-case start='1721203993077' status='passed' stop='1721204035646'>
             <name>TestCase_010: Verify that User can Remove item from ProductCompare List</name>
             <title>TestCase_010: Verify that User can Remove item from ProductCompare List</title>
             <labels/>
@@ -19,7 +19,7 @@
             <steps/>
             <attachments/>
         </test-case>
-        <test-case start='1721202670822' status='passed' stop='1721202688315'>
+        <test-case start='1721204036906' status='passed' stop='1721204067740'>
             <name>TestCase_011: Verify that User can Add item To Cart From ProductCompare</name>
             <title>TestCase_011: Verify that User can Add item To Cart From ProductCompare</title>
             <labels/>

@@ -1,9 +1,9 @@
 <?xml version='1.0'?>
-<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721133005203' stop='1721133022928'>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1721204077795' stop='1721204116427'>
     <name>Product Compare</name>
     <title>Product Compare</title>
     <test-cases>
-        <test-case start='1721133005203' status='passed' stop='1721133022928'>
+        <test-case start='1721204077795' status='passed' stop='1721204116427'>
             <name>TestCase_012: Verify that User can Added items are displayed in Checkout</name>
             <title>TestCase_012: Verify that User can Added items are displayed in Checkout</title>
             <labels/>

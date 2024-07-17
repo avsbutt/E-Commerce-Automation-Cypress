@@ -16,11 +16,11 @@ module.exports = defineConfig({
     tsc: 'cypress/support/commands.ts',
 
    
-    video: true,
+    video: false,
     videosFolder: 'cypress/e2e/videos',
     screenshotsFolder: 'cypress/e2e/screenshots',
     pageLoadTimeout:60000 ,
-    screenshots: true,
+    screenshots: false,
     
     viewportWidth: 1280,
     viewportHeight: 800,
