@@ -51,3 +51,4 @@ Used this in file where faker is required...     const { faker } = require('@fak
 
 Testomat.io
 npm i --save-dev @testomatio/reporter
+To use this add this command in setupNodeEvents in cypress.config.js file...     require('@testomatio/reporter/lib/adapter/cypress-plugin')(on, config);
