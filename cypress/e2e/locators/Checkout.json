@@ -21,10 +21,7 @@
         "TermsAndCondition":"//label[@for='input-agree']",
         "ContinueBtn":"//button[@id='button-save']",
         "ConfirmOrderBtn":"//button[@id='button-confirm']",
-        "OrderPlacedText":"//h1[@class='page-title my-3']",
-
-
-        "":""
+        "OrderPlacedText":"//h1[@class='page-title my-3']"
 
     }
 }
