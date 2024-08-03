@@ -19,6 +19,6 @@ RUN apt-get update && apt-get install -y \
 USER jenkins
 
 
-
+# After Saving this file goto the Terminal, Change directory where File is Present and run the following command.
 # Run this command with Dot . included >>>      docker build -t my-jenkins-xvfb .
 # Run this command to Create docker image>>>    docker run -d -p 8080:8080 -p 50000:50000 --name my-jenkins-xvfb my-jenkins-xvfb
