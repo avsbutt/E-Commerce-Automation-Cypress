@@ -1,0 +1,25 @@
+
+1.  
+Set Strings with their values
+General > This project is parameterised > 
+Name: run 
+Default Value: TESTOMATIO_RUN="${run}"
+Name: testomatio 
+Default Value: TESTOMATIO=${testomatio}
+Name: grep 
+Default Value: --grep "${grep}"
+Name: testomatio_url 
+Default Value: TESTOMATIO_URL=${testomatio_url}
+
+
+2. 
+Source Code Management > Git > Add Repository URL
+
+3.
+Following command Runs Cypress test and generate it report in Testomat 
+
+Paste this in Jenkins > Build Steps > Execute shell
+
+npm install
+TESTOMATIO=tstmt_vIb-cBaY94oDPTF3As3BO4kmeEM_TqyyZg1721199532 npx cypress run --env grep="${grep}"               //// Text after '=' is a token which is updated everytime after connecting project with testomat
+# TESTOMATIO_RUN=${run} TESTOMATIO=${testomatio} npx cypress run --env grep="${grep}"
