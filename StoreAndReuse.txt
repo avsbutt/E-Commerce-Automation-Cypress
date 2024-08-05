@@ -1,0 +1,20 @@
+We use 2 Different for store a number and then reuse it 
+    
+    1. Through Cypress Enviroment
+
+    cy.get('#order_id').invoke('value').then((IDnumber) =>{
+        cy.log('order number:', IDnumber)
+        Cypress.env('orderID', IDnumber)
+        const orderID =  Cypress.env('orderID')
+        cy.get('#search').type(orderID)
+    
+---------------
+
+2. Through Read and Write 
+
+        cy.writeFile('Cypress/e2e/fixture/order.json' , {thisisorderID: orderID})
+        cy.readFile('Cypress/e2e/fixture/order.json').then((data)=>{
+            const od = Cypress.env('orderID')
+            cy.get('#search').type(data.orderID)
+        }) 
+    })
