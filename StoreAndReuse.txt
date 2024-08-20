@@ -1,10 +1,12 @@
 We use 2 Different for store a number and then reuse it 
     
+
+    The then function is a Cypress command that allows you to work with the result of the previous command.
     1. Through Cypress Enviroment
 
-    cy.get('#order_id').invoke('value').then((IDnumber) =>{
-        cy.log('order number:', IDnumber)
-        Cypress.env('orderID', IDnumber)
+    cy.get('#order_id').invoke('value').then((retrivedID) =>{
+        cy.log('order number:', retrivedID)
+        Cypress.env('orderID', retrivedID)
         const orderID =  Cypress.env('orderID')
         cy.get('#search').type(orderID)
     
@@ -12,9 +14,18 @@ We use 2 Different for store a number and then reuse it
 
 2. Through Read and Write 
 
-        cy.writeFile('Cypress/e2e/fixture/order.json' , {thisisorderID: orderID})
-        cy.readFile('Cypress/e2e/fixture/order.json').then((data)=>{
-            const od = Cypress.env('orderID')
-            cy.get('#search').type(data.orderID)
-        }) 
+cy.get('#order_no').invoke('val').then((retrievedOrderID) => { 
+    cy.log(`Order Number: ${retrievedOrderID}`); 
+    cy.writeFile('cypress/fixtures/order.json', { orderID: retrievedOrderID }); 
+  });
+
+
+
+cy.readFile('cypress/fixtures/order.json').then((data) => { 
+  const orderID = data.orderID;
+  cy.log(`Using Order Number: ${orderID}`); 
+
+  cy.get('#search_field').type(orderID);
+  cy.get('#search_button').click();
+});
     })

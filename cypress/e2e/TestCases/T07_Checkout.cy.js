@@ -15,6 +15,17 @@ describe('Product Compare', ()=>{
         P07_Test.ClickOnContinueBtn()
         P07_Test.ConfirmOrder()
         P07_Test.CheckoutSuccess()
+
+        cy.get('#order-id').invoke('val').then((retrivedid)=>{
+            Cypress.env('orderid', retrivedid)
+
+            const orderid = Cypress.env(retrivedid)
+            cy.get('#search').type(orderid)
+            cy.writeFile('Cypress/fixture/od.json', {order: retrivedid})
+            cy.readFile('Cypress/fixture/od.json').then((data)=>{
+                const id = data
+            })
+        })
   
     })
 })
