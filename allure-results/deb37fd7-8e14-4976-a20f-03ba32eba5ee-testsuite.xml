@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1725132788954' stop='1725132788957'>
+    <name>Product Compare</name>
+    <title>Product Compare</title>
+    <test-cases>
+        <test-case start='1725132788955' status='pending' stop='1725132788955'>
+            <name>TestCase_009: Verify that User can Add item To ProductCompare</name>
+            <title>TestCase_009: Verify that User can Add item To ProductCompare</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1725132788955' status='undefined'>
+            <name>TestCase_009: Verify that User can Add item To ProductCompare</name>
+            <title>TestCase_009: Verify that User can Add item To ProductCompare</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1725132788956' status='pending' stop='1725132788956'>
+            <name>TestCase_010: Verify that User can Remove item from ProductCompare List</name>
+            <title>TestCase_010: Verify that User can Remove item from ProductCompare List</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1725132788956' status='undefined'>
+            <name>TestCase_010: Verify that User can Remove item from ProductCompare List</name>
+            <title>TestCase_010: Verify that User can Remove item from ProductCompare List</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1725132788957' status='pending' stop='1725132788957'>
+            <name>TestCase_011: Verify that User can Add item To Cart From ProductCompare</name>
+            <title>TestCase_011: Verify that User can Add item To Cart From ProductCompare</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1725132788957' status='undefined'>
+            <name>TestCase_011: Verify that User can Add item To Cart From ProductCompare</name>
+            <title>TestCase_011: Verify that User can Add item To Cart From ProductCompare</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

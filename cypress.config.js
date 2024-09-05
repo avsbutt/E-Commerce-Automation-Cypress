@@ -3,12 +3,14 @@ const { defineConfig } = require("cypress");
 module.exports = defineConfig({
   e2e: {
 
+    specPattern: "cypress/e2e/TestCases/**/*.cy.js",     //The specPattern tells Cypress where to find your test files.
+
     baseUrl: "https://ecommerce-playground.lambdatest.io/index.php?route=",
     setupNodeEvents(on, config) {
       // implement node event listeners here
 
       // testomat.io reporter plugin:
-      require('@testomatio/reporter/lib/adapter/cypress-plugin')(on, config);
+      require('@testomatio/reporter/lib/adapter/cypress-plugin')(on, config);  //Testomatio Plugin 
     },
 
 

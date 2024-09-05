@@ -68,9 +68,4 @@ export class P03_ShopByCatagoryClass {
         //cy.xpath(ShopByCatagoryLocators.ItemAddedNotification).should('not.be.visible')
 
     }
-
-
-
-
-
 }

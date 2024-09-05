@@ -36,10 +36,10 @@ rm -rf allure-results allure-report
 
 
 Real-Events
-If Hover is not working with trigger real-events is used.
+If Hover/drag-drop is not working with trigger real-events is used.
 npm install cypress-real-events
 Add the following line to your cypress/support/commands.js file:        import 'cypress-real-events';
-
+so you can use with realDrag,realHover
 
 
 
@@ -52,3 +52,10 @@ Used this in file where faker is required...     const { faker } = require('@fak
 Testomat.io
 npm i --save-dev @testomatio/reporter
 To use this add this command in setupNodeEvents in cypress.config.js file...     require('@testomatio/reporter/lib/adapter/cypress-plugin')(on, config);
+
+
+To use testomat first Create a Project in Testomat
+Then import Automated Test Testomat Generate API Link Paste this in Cypress and Run with TC directory API >>>(TESTOMATIO=tstmt_PrER07IFwDX6WpcfTo3aZGCcgnAS1xF5RA1725132035 npx check-tests@latest Cypress.io "**/*{.,_}{test,spec,cy}.js" --dir "/Users/awaismumtaz/Desktop/E-Commerce Automation Cypress/cypress/e2e/TestCases"
+)
+For Every Project Api will be different.
+After Running this command in terminal check Testomat Your test are imported in Testomat.

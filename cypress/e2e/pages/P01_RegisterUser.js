@@ -1,28 +1,18 @@
 import {RegisterUserLocators} from "../locators/RegisterUser.json"
+import { generateAndSaveRandomUserData } from '../utils/FakerRandomData'; // Import the utility function
+
 const { faker } = require('@faker-js/faker');  //USED FAKER FOR RANDOM FirstName, LastName, Email, Telephone
 
 
 export class P01_RegisterUserClass {
 
 
+  init() {
+    return generateAndSaveRandomUserData().then((userData) => {
+      this.RegisteredUserData = userData;
+    });
+  }
 
-  constructor() {                       //   THIS CONSTRUCTOR GENERATE RANDOM DATA THROUGH FAKER
-    this.RegisteredUserData = {
-      firstName: faker.name.firstName(),
-      lastName: faker.name.lastName(),
-      email: faker.internet.email(),
-      address: faker.address.streetAddress(), // Generate random address
-      city: faker.address.city(), // Generate random city
-      postcode: faker.address.zipCode(), // Generate random postcode
-      telephone: faker.phone.number('##########'), // Generates a 10-digit number
-      password: faker.internet.password() // Generates a random password
-    };
-    }
-
-
-    saveUserCredentials() {
-        cy.writeFile('cypress/e2e/fixtures/RegisteredUserData.json', this.RegisteredUserData);    //THIS FUNCTION CREATE A FILE IN FIXTURE AND SAVE THE DATA THAT IS TYPED, FILE IS OVERWRITE EVERYTIME WHEN NEW TEST IS RUN
-      }
   
     openMyAccountClickRegister() {
       cy.xpath(RegisterUserLocators.MyAccount).trigger('mouseover');

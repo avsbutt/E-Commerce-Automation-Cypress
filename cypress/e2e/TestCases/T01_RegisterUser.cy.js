@@ -2,6 +2,12 @@ import { P01_RegisterUserClass } from "../pages/P01_RegisterUser"
 const P01_Test = new P01_RegisterUserClass();
 
 describe('Registered New User', ()=>{
+
+
+  before(() => {
+    // Initialize and generate user data before the test starts
+    return P01_Test.init();
+  });
     it("TestCase_001: Verify that User can be Registered Successfully", ()=>{
 
     cy.visit('common/home')
@@ -15,7 +21,7 @@ describe('Registered New User', ()=>{
     P01_Test.PrivacyPolicy()
     P01_Test.NewsletterSubscribe()
     P01_Test.ContinueBtn()
-    P01_Test.saveUserCredentials()
+    //P01_Test.saveUserCredentials()
     P01_Test.AccountCreatedUrlCheck()
     cy.screenshot('TC001 Verify that User can be Registered Successfully')
   })

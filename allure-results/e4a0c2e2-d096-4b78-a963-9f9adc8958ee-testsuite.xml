@@ -1,0 +1,67 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1725132785984' stop='1725132785987'>
+    <name>WishList</name>
+    <title>WishList</title>
+    <test-cases>
+        <test-case start='1725132785986' status='pending' stop='1725132785986'>
+            <name>TestCase_006: Verify that User can Add Product To WishList</name>
+            <title>TestCase_006: Verify that User can Add Product To WishList</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1725132785986' status='undefined'>
+            <name>TestCase_006: Verify that User can Add Product To WishList</name>
+            <title>TestCase_006: Verify that User can Add Product To WishList</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1725132785986' status='pending' stop='1725132785986'>
+            <name>TestCase_007: Verify that User can Delete Product From WishList</name>
+            <title>TestCase_007: Verify that User can Delete Product From WishList</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1725132785986' status='undefined'>
+            <name>TestCase_007: Verify that User can Delete Product From WishList</name>
+            <title>TestCase_007: Verify that User can Delete Product From WishList</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1725132785987' status='pending' stop='1725132785987'>
+            <name>TestCase_008: Verify that User can Add Product To Cart From WishList</name>
+            <title>TestCase_008: Verify that User can Add Product To Cart From WishList</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Test ignored</message>
+                <stack-trace>undefined</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1725132785987' status='undefined'>
+            <name>TestCase_008: Verify that User can Add Product To Cart From WishList</name>
+            <title>TestCase_008: Verify that User can Add Product To Cart From WishList</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

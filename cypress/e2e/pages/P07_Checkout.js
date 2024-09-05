@@ -48,7 +48,7 @@ export class P07_CheckoutClass {
             cy.xpath(CheckoutLocators.OrderPlacedText).should('exist');
         }
 
-
+        
     }
     
     
