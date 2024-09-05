@@ -12,7 +12,7 @@ Necessary Installation:
 Xpath: 
 npm install cypress-xpath --save-dev     
 Modify the cypress/support/e2e.js:        require('cypress-xpath')
-
+--------------------
 
 
 iFrame:
@@ -21,20 +21,22 @@ Add the following line to your cypress/support/commands.js file:      import 'cy
 Usage Example:
 cy.frameLoaded('#your-iframe-id');
 cy.iframe().find('selector-within-iframe').click();
-
-
-
+--------------------
 Mocha-Allure-Reporter:
 npm install allure-commandline --save-dev
 npm install mocha-allure-reporter --save-dev
 
-
 install this to clear previous Data (Allure result,report):      npm install rimraf --save-dev  
 rm -rf allure-results allure-report
+OR you can delete manually by deleting the folder.
 
+Run this command to generate allure Report through result:
+allure generate allure-results --clean 
+After allure result are generated run this command to open report
+To view the report, run:         
+allure open
 
-
-
+--------------------
 Real-Events
 If Hover/drag-drop is not working with trigger real-events is used.
 npm install cypress-real-events
@@ -42,13 +44,13 @@ Add the following line to your cypress/support/commands.js file:        import '
 so you can use with realDrag,realHover
 
 
-
+--------------------
 Faker:  
 To generate random data like email, first name, last name, and telephone in Cypress, Faker is used.
 npm install @faker-js/faker --save-dev
 Used this in file where faker is required...     const { faker } = require('@faker-js/faker');
 
-
+--------------------
 Testomat.io
 npm i --save-dev @testomatio/reporter
 To use this add this command in setupNodeEvents in cypress.config.js file...     require('@testomatio/reporter/lib/adapter/cypress-plugin')(on, config);
