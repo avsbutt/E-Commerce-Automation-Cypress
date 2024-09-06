@@ -20,7 +20,7 @@ npm install -D cypress-iframe
 Add the following line to your cypress/support/commands.js file:      import 'cypress-iframe';
 Usage Example:
 cy.frameLoaded('#your-iframe-id');
-cy.iframe().find('selector-within-iframe').click();
+cy.iframe('#your-iframe-id').find('selector-within-iframe').click();
 --------------------
 Mocha-Allure-Reporter:
 npm install allure-commandline --save-dev
@@ -37,18 +37,18 @@ To view the report, run:
 allure open
 
 --------------------
-Real-Events
+Real-Events:
 If Hover/drag-drop is not working with trigger real-events is used.
 npm install cypress-real-events
 Add the following line to your cypress/support/commands.js file:        import 'cypress-real-events';
 so you can use with realDrag,realHover
 
-
 --------------------
-
+File upload:
 npm install --save-dev cypress-file-upload
 Add this command in support/commands.js:      require('cypress-file-uoload');
 Add this command in support/e2e.js:           import 'cypress-file-upload';
+
 --------------------
 Faker:  
 To generate random data like email, first name, last name, and telephone in Cypress, Faker is used.
