@@ -45,6 +45,11 @@ so you can use with realDrag,realHover
 
 
 --------------------
+
+npm install --save-dev cypress-file-upload
+Add this command in support/commands.js:      require('cypress-file-uoload');
+Add this command in support/e2e.js:           import 'cypress-file-upload';
+--------------------
 Faker:  
 To generate random data like email, first name, last name, and telephone in Cypress, Faker is used.
 npm install @faker-js/faker --save-dev
