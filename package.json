@@ -30,7 +30,7 @@
     "rimraf": "^5.0.9"
   },
   "dependencies": {
-    "cypress-real-events": "^1.13.0",
-    "cypress-drag-drop":"^1.1.1"
+    "cypress-drag-drop": "^1.1.1",
+    "cypress-real-events": "^1.13.0"
   }
 }

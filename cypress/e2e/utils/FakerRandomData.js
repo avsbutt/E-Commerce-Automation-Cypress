@@ -16,4 +16,3 @@ export const generateAndSaveRandomUserData = () => {
   return cy.writeFile('cypress/fixtures/RegisteredUserData.json', RegisteredUserData)
     .then(() => RegisteredUserData); // Ensure it returns a promise
 };
-

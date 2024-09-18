@@ -27,7 +27,6 @@ describe('Example Test', ()=>{
         })
 
 
-
         cy.visit('https://rahulshettyacademy.com/AutomationPractice/')
         cy.xpath("//button[@id='mousehover']").realHover()
         cy.xpath("//a[normalize-space()='Reload']").click()                        //HOVER USING REALEVENTS 

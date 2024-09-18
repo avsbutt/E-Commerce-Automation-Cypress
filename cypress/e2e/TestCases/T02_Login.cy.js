@@ -22,11 +22,8 @@ describe('Login', ()=>{
        P02_Test.InvalidLoginUrlCheck()
        cy.screenshot('TC003 Verify that User cannot Login with invalid Credentials')
 
-      })
+ })
 
-
-      
-      
   })
 
 })

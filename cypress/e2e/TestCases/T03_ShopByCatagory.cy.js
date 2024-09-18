@@ -15,6 +15,6 @@ describe('Shop By Catagory', ()=>{
         P03_Test.iMacAddToCart()
        //P03_Test.AppleCinemaAddToCart()
         P03_Test.iPodClassicAddToCart()
-
+           
     })
 })

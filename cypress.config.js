@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  projectId: 'xfw14i',
   e2e: {
 
     specPattern: "cypress/e2e/TestCases/**/*.cy.js",     //The specPattern tells Cypress where to find your test files.
@@ -16,6 +17,7 @@ module.exports = defineConfig({
 
     fixturesFolder: 'cypress/e2e/fixtures',
     tsc: 'cypress/support/commands.ts',
+    defaultCommandTimeout: 10000,
 
    
     video: false,
