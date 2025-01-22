@@ -87,10 +87,55 @@ describe('Example Test', ()=>{
             cy.wrap(body).contains('Your content goes here.').type('{cmd}a');
         });
         
+    })
+
+
+    it('OTP handle',()=>{
+
+       // Approach 1: Handling OTP Sent via API (Stubbing and Interception)
+     //If your system uses an API to generate and validate OTPs, you can stub or intercept this request.
+
+        cy.intercept('POST', '/api/otp', {
+        statusCode: 200,
+        body: { otp: '123456' } // Stubbed OTP
+        }).as('getOtp');
+
+        cy.visit('/login');
+        cy.get('input[name="phoneNumber"]').type('1234567890');
+        cy.get('button[type="submit"]').click();
+        cy.wait('@getOtp'); // Wait for the OTP API to be called
+        cy.get('input[name="otp"]').type('123456'); // Use the stubbed OTP
+        cy.get('button[type="verify"]').click()
 
 
 
-       
+
+      //Approach 2: Accessing OTP from Email or SMS
+     // Uing a Mailbox API
+     // If your OTP is delivered by email, you can integrate Cypress with a service like: MailSlurp, Mailinator, or custom IMAP/SMTP APIs.
+   
+     // Example with MailSlurp
+     
+        cy.request({
+        method: 'GET',
+        url: 'https://api.mailslurp.com/inboxes/YOUR_INBOX_ID/emails',
+        headers: {
+            'x-api-key': 'YOUR_API_KEY',
+        },
+        }).then((response) => {
+        const email = response.body[0]; // Assuming OTP is in the first email
+        const otp = email.body.match(/\d{6}/)[0]; // Extract a 6-digit OTP
+        cy.get('input[name="otp"]').type(otp); // Use OTP in the form
+        });
+        // SMS-based OTP
+        // If using an SMS service with an API (like Twilio):
+        // Fetch the SMS content using Twilio’s API.
+        // Extract the OTP and input it in Cypress.
+
+
+
+
+
     })
 })
 })
